@@ -6,8 +6,8 @@ const AboutTheAppScreen = params => {
   const [text1, setText1] = useState("");
   const [text2, setText2] = useState("");
   useEffect(() => {
-    setText1("I understand that uses my dolor sit amet, consectetur adipiscing elit. Viverra auctor laoreet sodales congue sit volutpat quisque. Mattis nisl in convallis sed et. Est turpis aliquam est, ut mattis nisi, amet feugiat. Aliquet odio consequat, nisl mauris ullamcorper malesuada velit sem dolor. Dui morbi porttitor integer felis, pellentesque quam. Et accumsan justo, massa tincidunt arcu fermentum est. Sed nibh id vel, diam ut feugiat nec, placerat mauris. Neque lorem netus lacinia elit est libero sed. Commodo viverra et, neque augue augue mauris, nunc ut nec.");
-    setText2("I understand that uses my dolor sit amet, consectetur adipiscing elit. Viverra auctor laoreet sodales congue sit volutpat quisque. Mattis nisl in convallis sed et. Est turpis aliquam est, ut mattis nisi, amet feugiat. Aliquet odio consequat, nisl mauris ullamcorper malesuada velit sem dolor. Dui morbi porttitor integer felis, pellentesque quam. Et accumsan justo, massa tincidunt arcu fermentum est. Sed nibh id vel, diam ut feugiat nec, placerat mauris. Neque lorem netus lacinia elit est libero sed. Commodo viverra et, neque augue augue mauris, nunc ut nec.");
+    setText1("We have created AI aggregator service tailored for news media, SMM, and Affiliate agency Generates Titles, Descriptions, Images, Animations, Videos, Rewrites, Summaries");
+    setText2("Contact us via e-mail vadym@tuluko.eu");
     setImageSource(require("./assets/Frame21.png"));
   }, []);
   return <SafeAreaView style={styles.container}>
